@@ -1,4 +1,4 @@
-from supabase_client import supabase
+from config from supabase_client import supabase
 
 def main():
     data = supabase.table("firms").select("*").limit(1).execute()
